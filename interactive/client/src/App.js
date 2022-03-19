@@ -93,7 +93,7 @@ function App() {
           </InputGroup>
           <InputGroup style={{ marginTop: "2vh" }}>
             <FormControl
-              placeholder="Github Username, used to accredit"
+              placeholder="Github Username"
               aria-label="Github Username"
               aria-describedby="basic-addon1"
               onChange={e => setUsername(e.target.value)}
